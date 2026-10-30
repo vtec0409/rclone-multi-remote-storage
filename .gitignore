@@ -1,0 +1,17 @@
+
+# Real rclone configurations
+rclone.conf
+rclone.conf.*
+**/rclone.conf
+**/rclone.conf.*
+
+# Secrets
+.env
+.env.*
+*.token
+*.secret
+secrets/
+
+# Logs and cache
+*.log
+.cache/
